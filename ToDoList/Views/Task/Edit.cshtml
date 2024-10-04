@@ -1,0 +1,36 @@
+﻿@model ToDoList.Models.ToDoTask
+
+@{
+    ViewData["Title"] = "Edit Task";
+}
+
+<h2>Edit Task</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <h4>Task</h4>
+        <hr />
+        <form asp-action="Edit" asp-route-id="@Model.Id">
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
