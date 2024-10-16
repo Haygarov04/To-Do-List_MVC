@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ToDoList.Models;
-using ToDoList.Controllers;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace ToDoList
 {
@@ -13,8 +13,19 @@ namespace ToDoList
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            //builder.Services.AddDbContext<ToDoContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-            builder.Services.AddDbContext<ToDoContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            // Добавяне на DbContext за работата с базата данни
+            builder.Services.AddDbContext<ToDoContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            // Добавяне на аутентикация с cookies
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = "/Account/Login";   // Път към логин страницата
+                    options.LogoutPath = "/Account/Logout"; // Път към изход страницата
+                });
+
+            builder.Services.AddAuthorization();
 
             var app = builder.Build();
 
@@ -22,7 +33,6 @@ namespace ToDoList
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
@@ -31,6 +41,8 @@ namespace ToDoList
 
             app.UseRouting();
 
+            // Добавяне на аутентикация и авторизация
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

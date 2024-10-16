@@ -1,158 +1,124 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using ToDoList.Models;
+using System.Linq;
 
 namespace ToDoList.Controllers
 {
-    namespace ToDoList.Controllers
+    public class TaskController : Controller
     {
-        [Route("Тasks")] // Основен маршрут за контролера
-        public class TaskController : Controller
+        private readonly ToDoContext _context;
+
+        public TaskController(ToDoContext context)
         {
+            _context = context;
+        }
 
-            private readonly ToDoContext _context;
+        // Показване на задачите на конкретен потребител
+        public IActionResult UserTasks(int userId)
+        {
+            var tasks = _context.Tasks.Where(t => t.UserId == userId).ToList();
+            return View(tasks);
+        }
 
-            public TaskController(ToDoContext context)
+        // Създаване на нова задача
+
+        
+        public IActionResult Create(int userId)
+        {
+            // Създаваме нова задача и предаваме userId към изгледа
+            var task = new ToDoTask { UserId = userId };
+            return View(task); // Предаваме модела на изгледа
+        }
+
+        [HttpPost]
+
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(ToDoTask task)
+        {
+            if (ModelState.IsValid)
             {
-                _context = context;
-            }
-
-            // Добави методи тук
-            [HttpGet] // За GET заявки
-            [Route("")] // Празен маршрут за показване на списък
-
-            public async Task<IActionResult> Index()
-            {
-                var tasks = await _context.Tasks.ToListAsync();
-                return View(tasks);
-            }
-
-            [Route("ChangeStatus/{id}")]
-            [HttpPost]
-            public IActionResult ToggleStatus(int id)
-            {
-                var task = _context.Tasks.FirstOrDefault(t => t.Id == id);
-                if (task != null)
-                {
-                    task.IsCompleted = !task.IsCompleted; // Променя статуса
-                    _context.SaveChanges(); // Записва промените в базата данни
-                }
-
-                return RedirectToAction("Index"); // Пренасочва обратно към изгледа с задачите
-            }
-
-            [Route("Task/Create")]
-            public IActionResult Create()
-            {
-                return View();
-            }
-
-            [HttpPost]
-            [Route("Task/Create")]
-            [ValidateAntiForgeryToken]
-            public IActionResult Create(ToDoTask task)
-            {
-                if (ModelState.IsValid)
-                {
-                    _context.Tasks.Add(task);
-                    _context.SaveChanges();
-                    return RedirectToAction("Index");
-                }
-                return View();
-            }
-
-            [HttpGet]
-            [Route("Delete/{id?}")]
-            public IActionResult Delete(int? id)
-            {
-                if (id == null)
-                {
-                    return NotFound();
-                }
-
-                var task = _context.Tasks.FirstOrDefault(t => t.Id == id);
-                if (task == null)
-                {
-                    return NotFound();
-                }
-
-                return View(task); // Това ще покаже страницата за потвърждение на изтриване
-            }
-
-
-            [HttpPost, ActionName("DeleteConfirm")]
-            [ValidateAntiForgeryToken]
-            public IActionResult DeleteConfirm(int id)
-            {
-                var task = _context.Tasks.Find(id);
-                if (task == null)
-                {
-                    return NotFound();
-                }
-
-                _context.Tasks.Remove(task);
+                _context.Tasks.Add(task);
                 _context.SaveChanges();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("UserTasks", new { userId = task.UserId });
             }
+            return View(task);
+        }
 
-
-
-
-
-            [HttpGet]
-            [Route("Edit/{id}")]
-            public async Task<IActionResult> Edit(int id)
+        // Редакция на задача
+        public IActionResult Edit(int id)
+        {
+            var task = _context.Tasks.Find(id);
+            if (task == null)
             {
-                var task = await _context.Tasks.FindAsync(id);
-                if (task == null)
-                {
-                    return NotFound();
-                }
-                return View(task);
+                return NotFound();
             }
+            return View(task);
+        }
 
-            // POST: tasks/Edit/5
-            [HttpPost]
-            [Route("Edit/{id}")]
-            [ValidateAntiForgeryToken]
-            public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description")] ToDoTask task)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(int id, ToDoTask task)
+        {
+            if (id != task.Id)
             {
-                if (id != task.Id)
-                {
-                    return NotFound();
-                }
-
-                if (ModelState.IsValid)
-                {
-                    try
-                    {
-                        _context.Update(task);
-                        await _context.SaveChangesAsync();
-                        return RedirectToAction(nameof(Index));
-                    }
-                    catch (DbUpdateConcurrencyException)
-                    {
-                        if (!TaskExists(task.Id))
-                        {
-                            return NotFound();
-                        }
-                        else
-                        {
-                            throw;
-                        }
-                    }
-                }
-                return View(task);
+                return NotFound();
             }
 
-            private bool TaskExists(int id)
+            if (ModelState.IsValid)
             {
-                return _context.Tasks.Any(e => e.Id == id);
+                _context.Tasks.Update(task);
+                _context.SaveChanges();
+                return RedirectToAction("UserTasks", new { userId = task.UserId });
+            }
+            return View(task);
+        }
+
+        // Изтриване на задача
+        public IActionResult Delete(int id)
+        {
+            var task = _context.Tasks.Find(id);
+            if (task == null)
+            {
+                return NotFound();
+            }
+            return View(task);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            var task = _context.Tasks.Find(id);
+            var userId = task.UserId;
+            _context.Tasks.Remove(task);
+            _context.SaveChanges();
+            return RedirectToAction("UserTasks", new { userId = userId });
+        }
+
+        [HttpPost]
+        public IActionResult ToggleStatus(int id)
+        {
+            // Намираме задачата по Id
+            var task = _context.Tasks.Find(id);
+
+            if (task == null)
+            {
+                return NotFound();
             }
 
+            // Проверяваме дали задачата принадлежи на текущия потребител
+            var currentUserId = User.FindFirst("UserId").Value;
+            if (task.UserId.ToString() != currentUserId)
+            {
+                return Unauthorized(); // Ако задачата не принадлежи на потребителя
+            }
 
+            // Променяме статуса на задачата
+            task.IsCompleted = !task.IsCompleted;
+            _context.SaveChanges();
 
-
-    }
+            // Пренасочваме обратно към списъка със задачи на потребителя
+            return RedirectToAction("UserTasks", new { userId = task.UserId });
+        }
     }
 }

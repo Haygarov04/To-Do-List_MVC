@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\velis\Desktop\Programing\To-Do-List_MVC\ToDoList
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/velis/Desktop/Programing/To-Do-List_MVC/ToDoList/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/velis/Desktop/Programing/To-Do-List_MVC/ToDoList/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/velis/Desktop/Programing/To-Do-List_MVC/ToDoList/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,8 +54,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/velis/Desktop/Programing/To-Do-List_MVC/ToDoList/Views/Task/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xJbmRleC5jc2h0bWw=
+[C:/Users/velis/Desktop/Programing/To-Do-List_MVC/ToDoList/Views/Task/UserTasks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xVc2VyVGFza3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/velis/Desktop/Programing/To-Do-List_MVC/ToDoList/Views/_ViewImports.cshtml]

@@ -135,3 +135,12 @@ C:\Users\velis\Desktop\Programing\To-Do-List_MVC\ToDoList\obj\Debug\net8.0\refin
 C:\Users\velis\Desktop\Programing\To-Do-List_MVC\ToDoList\obj\Debug\net8.0\ToDoList.pdb
 C:\Users\velis\Desktop\Programing\To-Do-List_MVC\ToDoList\obj\Debug\net8.0\ToDoList.genruntimeconfig.cache
 C:\Users\velis\Desktop\Programing\To-Do-List_MVC\ToDoList\obj\Debug\net8.0\ref\ToDoList.dll
+C:\Users\velis\Desktop\Programing\To-Do-List_MVC\ToDoList\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\velis\Desktop\Programing\To-Do-List_MVC\ToDoList\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\velis\Desktop\Programing\To-Do-List_MVC\ToDoList\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\velis\Desktop\Programing\To-Do-List_MVC\ToDoList\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\velis\Desktop\Programing\To-Do-List_MVC\ToDoList\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\velis\Desktop\Programing\To-Do-List_MVC\ToDoList\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\velis\Desktop\Programing\To-Do-List_MVC\ToDoList\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\velis\Desktop\Programing\To-Do-List_MVC\ToDoList\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\velis\Desktop\Programing\To-Do-List_MVC\ToDoList\obj\Debug\net8.0\ToDoList.MvcApplicationPartsAssemblyInfo.cs

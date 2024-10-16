@@ -1,7 +1,11 @@
-﻿<table class="table">
+﻿<h2>My Tasks</h2>
+
+<a asp-action="Create" class="btn btn-success" asp-route-userId="@User.FindFirst("UserId").Value">Add New Task</a>
+
+<table class="table">
     <thead>
         <tr>
-            <th>ID</th>
+            <th>#</th>
             <th>Title</th>
             <th>Description</th>
             <th>Status</th>
@@ -9,7 +13,6 @@
         </tr>
     </thead>
     <tbody>
-        <a asp-action="Create" class="btn btn-success">Add New Task</a>
         @{
             int index = 1;
         }
@@ -18,7 +21,6 @@
         {
             <tr>
                 <td>@index</td>
-                <td>@task.Title</td>
                 <td>@task.Title</td>
                 <td>@task.Description</td>
                 <td>
@@ -32,17 +34,17 @@
                     }
                 </td>
                 <td>
-                    <!-- Тук ще добавиш бутона за променяне на статуса -->
+                    <!-- Тук добавяме бутона за смяна на статуса на задачата -->
                     <form asp-action="ToggleStatus" asp-route-id="@task.Id" method="post">
                         <button type="submit" class="btn btn-primary">
                             @(task.IsCompleted ? "Mark as Incomplete" : "Mark as Complete")
                         </button>
                     </form>
-                    <a asp-action="Delete" asp-route-id="@task.Id" class="btn btn-danger">Delete</a>
 
+                    <!-- Бутони за редакция и изтриване на задачата -->
                     <a asp-action="Edit" asp-route-id="@task.Id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@task.Id" class="btn btn-danger">Delete</a>
                 </td>
-
             </tr>
             {
                 index++;

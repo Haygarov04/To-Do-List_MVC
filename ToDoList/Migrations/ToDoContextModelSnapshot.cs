@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using ToDoList.Models;
 
 #nullable disable
 
@@ -20,7 +21,54 @@ namespace ToDoList.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ToDoList.Models.ToDoTask", b =>
+            modelBuilder.Entity("ToDoList.Models.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Email = "admin@example.com",
+                            Password = "adminpassword",
+                            Role = "Admin",
+                            Username = "admin"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Email = "user1@example.com",
+                            Password = "password1",
+                            Role = "Normal",
+                            Username = "user1"
+                        });
+                });
+
+            modelBuilder.Entity("ToDoTask", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -39,7 +87,12 @@ namespace ToDoList.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Tasks");
 
@@ -49,22 +102,41 @@ namespace ToDoList.Migrations
                             Id = 1,
                             Description = "Milk, Eggs, Bread",
                             IsCompleted = false,
-                            Title = "Buy groceries"
+                            Title = "Buy groceries",
+                            UserId = 1
                         },
                         new
                         {
                             Id = 2,
                             Description = "Revise chapters 1 to 5",
                             IsCompleted = false,
-                            Title = "Study for exams"
+                            Title = "Study for exams",
+                            UserId = 2
                         },
                         new
                         {
                             Id = 3,
                             Description = "Leg day workout",
                             IsCompleted = true,
-                            Title = "Go to the gym"
+                            Title = "Go to the gym",
+                            UserId = 2
                         });
+                });
+
+            modelBuilder.Entity("ToDoTask", b =>
+                {
+                    b.HasOne("ToDoList.Models.User", "User")
+                        .WithMany("Tasks")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("ToDoList.Models.User", b =>
+                {
+                    b.Navigation("Tasks");
                 });
 #pragma warning restore 612, 618
         }

@@ -3,64 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\views\\task\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:views\\task\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\views\\task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:views\\task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\data\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:data\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\views\\task\\usertasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:views\\task\\usertasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\views\\task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:views\\task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\views\\task\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:views\\task\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\views\\home\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:views\\home\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Migrations\\20241015143857_CreateUsersAndTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241015143857_CreateUsersAndTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\data\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:data\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Task\\Create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Task\\Create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\migrations\\20241003213438_seedtodotasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:migrations\\20241003213438_seedtodotasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\migrations\\20241003213219_createtodotasktable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:migrations\\20241003213219_createtodotasktable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|c:\\users\\velis\\desktop\\programing\\to-do-list_mvc\\todolist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{10A435A5-B7D0-4C44-B6A7-AA914E178503}|ToDoList.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,49 +94,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Task\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Task\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Task\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Task\\Edit.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAuwCMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-04T00:54:40.009Z",
+              "DocumentIndex": 2,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Controllers\\TaskController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAEwG0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T17:23:36.635Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Task\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Task\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Task\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Task\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-04T00:14:24.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAABtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-04T00:01:14.573Z"
             },
             {
               "$type": "Document",
@@ -124,7 +119,8 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-04T00:00:16.471Z"
+              "WhenOpened": "2024-10-15T18:09:29.914Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -134,13 +130,209 @@
               "RelativeDocumentMoniker": "Views\\Task\\Create.cshtml",
               "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Task\\Create.cshtml",
               "RelativeToolTip": "Views\\Task\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-03T22:55:20.782Z"
+              "WhenOpened": "2024-10-15T19:14:01.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Task\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Task\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Task\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Task\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T19:04:54.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAASwB0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T17:35:36.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserTasks.cshtml",
+              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Task\\UserTasks.cshtml",
+              "RelativeDocumentMoniker": "Views\\Task\\UserTasks.cshtml",
+              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Task\\UserTasks.cshtml",
+              "RelativeToolTip": "Views\\Task\\UserTasks.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T17:25:38.048Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T17:28:56.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Task\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Task\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Task\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Task\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T19:05:23.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAIwGAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T17:34:38.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ToDoTask.cs",
+              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Models\\ToDoTask.cs",
+              "RelativeDocumentMoniker": "Models\\ToDoTask.cs",
+              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Models\\ToDoTask.cs",
+              "RelativeToolTip": "Models\\ToDoTask.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAIwBYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:41:14.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T14:18:25.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T18:15:09.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T17:54:01.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAUwGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T17:24:26.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20241015143857_CreateUsersAndTables.cs",
+              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Migrations\\20241015143857_CreateUsersAndTables.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241015143857_CreateUsersAndTables.cs",
+              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Migrations\\20241015143857_CreateUsersAndTables.cs",
+              "RelativeToolTip": "Migrations\\20241015143857_CreateUsersAndTables.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:38:57.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwDYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:52:45.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T17:27:42.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Home\\Login.cs",
+              "RelativeDocumentMoniker": "Views\\Home\\Login.cs",
+              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Home\\Login.cs",
+              "RelativeToolTip": "Views\\Home\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T17:53:02.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Create.cs",
               "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Task\\Create.cs",
               "RelativeDocumentMoniker": "Views\\Task\\Create.cs",
@@ -152,81 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-03T22:45:43.523Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Task\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Task\\Index.cshtml",
-              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Views\\Task\\Index.cshtml",
-              "RelativeToolTip": "Views\\Task\\Index.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-03T21:43:45.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskController.cs",
-              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Controllers\\TaskController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
-              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Controllers\\TaskController.cs",
-              "RelativeToolTip": "Controllers\\TaskController.cs",
-              "ViewState": "AQIAAIsAAAAAAAAAAAAuwJYAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:38:49.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20241003213438_SeedToDoTasks.cs",
-              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Migrations\\20241003213438_SeedToDoTasks.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241003213438_SeedToDoTasks.cs",
-              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Migrations\\20241003213438_SeedToDoTasks.cs",
-              "RelativeToolTip": "Migrations\\20241003213438_SeedToDoTasks.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:34:38.302Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20241003213219_CreateToDoTaskTable.cs",
-              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Migrations\\20241003213219_CreateToDoTaskTable.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241003213219_CreateToDoTaskTable.cs",
-              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Migrations\\20241003213219_CreateToDoTaskTable.cs",
-              "RelativeToolTip": "Migrations\\20241003213219_CreateToDoTaskTable.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:32:19.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T20:52:45.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -238,27 +356,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "ToDoContext.cs",
               "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Data\\ToDoContext.cs",
               "RelativeDocumentMoniker": "Data\\ToDoContext.cs",
               "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Data\\ToDoContext.cs",
               "RelativeToolTip": "Data\\ToDoContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T20:42:41.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ToDoTask.cs",
-              "DocumentMoniker": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Models\\ToDoTask.cs",
-              "RelativeDocumentMoniker": "Models\\ToDoTask.cs",
-              "ToolTip": "C:\\Users\\velis\\Desktop\\Programing\\To-Do-List_MVC\\ToDoList\\Models\\ToDoTask.cs",
-              "RelativeToolTip": "Models\\ToDoTask.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T20:41:14.974Z"
+              "WhenOpened": "2024-10-03T20:42:41.406Z",
+              "EditorCaption": ""
             }
           ]
         }
