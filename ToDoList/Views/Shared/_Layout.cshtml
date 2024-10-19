@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ToDoList.styles.css" asp-append-version="true" />
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
@@ -35,6 +36,12 @@
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-controller="Account" asp-action="Logout">Logout</a>
                             </li>
+                            <li class="nav-item">
+                                <a asp-action="Profile" asp-controller="User" class="nav-link">
+                                    <i class="fas fa-user"></i> Profile
+                                </a>
+                            </li>
+
                         }
                         else
                         {

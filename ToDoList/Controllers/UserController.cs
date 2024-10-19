@@ -19,6 +19,26 @@ namespace ToDoList.Controllers
             var users = _context.Users.ToList();
             return View(users);
         }
+        public IActionResult Profile()
+        {
+            // Вземи ID на текущо логнатия потребител от claims
+            var userId = User.FindFirst("UserId")?.Value;
+
+            if (userId == null)
+            {
+                // Ако потребителят не е логнат, пренасочваме го към страницата за логване
+                return RedirectToAction("Login", "Account");
+            }
+
+            // Търсим потребителя в базата данни по неговото ID
+            var user = _context.Users.Find(int.Parse(userId));
+            if (user == null)
+            {
+                return NotFound(); // Ако потребителят не е намерен, връщаме грешка 404
+            }
+
+            return View(user); // Предаваме потребителския модел на изгледа
+        }
 
         // Създаване на нов потребител
         public IActionResult Create()
@@ -69,28 +89,27 @@ namespace ToDoList.Controllers
         }
 
         // Изтриване на потребител
-        public IActionResult Delete(int id)
-        {
-            var user = _context.Users.Find(id);
-            if (user == null)
-            {
-                return NotFound();
-            }
-            return View(user);
-        }
-
-        [HttpPost, ActionName("Delete")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult DeleteConfirmed(int id)
+        public IActionResult DeleteProfile(int id)
         {
+            // Вземи ID на текущо логнатия потребител
+            var userId = User.FindFirst("UserId")?.Value;
+
+            if (userId == null || int.Parse(userId) != id)
+            {
+                return Unauthorized(); // Ако няма логнат потребител или ID-то не съвпада, връщаме Unauthorized
+            }
+
             var user = _context.Users.Find(id);
             if (user == null)
             {
-                return NotFound(); // Или друго обработване, ако потребителят не съществува
+                return NotFound(); // Ако потребителят не е намерен
             }
+
             _context.Users.Remove(user);
             _context.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("Logout", "Account");
         }
     }
 }
